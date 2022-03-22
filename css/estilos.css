@@ -6,7 +6,7 @@ footer {
 
 .social-header {
     display: flex !important;
-    align-self: flex-start;
+    align-self: flex-end;
 
 }
 
@@ -45,18 +45,17 @@ footer {
     width: 80%;
 }
 
-.cuerpo {
+/* .cuerpo {
     display: grid;
     grid-template-columns: repeat(12, 1r);
     grid-template-rows: auto;
-}
+} */
 
-
-features {
+#features {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    }
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
 
 @media screen and (max-width: 987px){
     .cont-nav {
